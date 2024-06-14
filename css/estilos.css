@@ -343,7 +343,7 @@ footer .redes {
     }
 	.principal{
 		background-image: url(../images/HOME-MANDALORIAN2-mini.webp);	
-	}
+	} 
 	.secundario .inicio {
 		grid-template-columns: repeat(1, 1fr);
 	}
