@@ -338,8 +338,8 @@ footer .redes {
 	max-width: 30px;
 }
 @media (max-width: 768px) {
-    .form {
-        min-width: 100%;
+	header {
+        flex-wrap: wrap;
     }
 	.principal{
 		height: 281px;
