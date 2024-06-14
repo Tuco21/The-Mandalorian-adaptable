@@ -342,6 +342,7 @@ footer .redes {
         min-width: 100%;
     }
 	.principal{
+		height: 281px;
 		background-image: url(../images/HOME-MANDALORIAN2-mini.webp);	
 	} 
 	.secundario .inicio {
