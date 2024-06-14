@@ -341,16 +341,8 @@ footer .redes {
     .form {
         min-width: 100%;
     }
-	.principal {
-		width: 100%;
-		height: 400px;
-		background-image: url(../images/HOME-MANDALORIAN2.jpg);
-		background-size: cover;
-		background-repeat: no-repeat;
-		display: flex;
-		align-items: start;
-		justify-content: right;
-		color: #000000;
+	.principal{
+		background-image: url(../images/HOME-MANDALORIAN2-mini.webp);	
 	}
 	.secundario .inicio {
 		grid-template-columns: repeat(1, 1fr);
