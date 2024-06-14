@@ -1,0 +1,386 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	color: #ffffff;
+} 
+ p::-webkit-scrollbar{
+	width: 0px;
+}
+body{
+	font-family: 'Rubik', sans-serif;
+	background-position: 70% 10%;
+	background-image: url(../images/fondo.jfif);
+}
+header{
+	padding-top: 2%;
+	padding-right: 7%;
+	padding-bottom: 2%;
+	padding-left: 7%;
+	display: flex;
+	justify-content: space-between;
+	background-color: #000000;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+
+}
+h1{
+	font-size: 1.5rem;
+}
+#menu_bar{
+	display: flex;
+	align-items: center;
+}
+header nav ul li:hover{
+	/* transform: translateY(2px); */
+	background-color: rgba(255, 139, 50, 0);
+	border-radius: 20px;
+}
+nav ul{
+	margin-top: 0%;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	font-size: 1.2rem;
+	padding-right: 2rem;
+	text-transform: uppercase;
+	background-color: #000000;
+	/* border-radius: 20px; */
+	padding: 8px;
+	display: block
+}
+nav ul li a:hover{
+	transform: translateY(3px);
+	/* font-weight: 850; */
+	background-color: rgba(255, 139, 50, 0.25);
+	/* border-radius: 20px; */
+}
+a{
+	text-decoration: none;
+	color: #ffffff;
+}
+nav ul > li {
+	float: left;
+}
+nav li ul{
+	display: none;
+	position: absolute;
+	min-width:100px;
+}
+nav li:hover > ul{
+	display: block;
+	position: absolute;
+	background-color: #000000;
+}
+nav li ul li {
+	position: relative;
+}
+/* nav li ul li ul {
+	left: 50px;
+	top: 38px;
+} */
+
+.icon { display: none; }
+.icono-principal:hover{
+	transform: translateY(3px);
+}
+section{
+	max-width: 1300px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #000; */
+}
+.galeria-ct {
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 2%;
+    text-align: center;
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.galeria-ct a img:hover {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+.principal{
+	width: 100%;
+	height: 750px;
+	background-image: url(../images/HOME-MANDALORIAN2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: start;
+	justify-content:right;
+	color: #000000;
+}
+.Contacto{
+	width: 100%;
+	height: 750px;
+	background-image: url(../images/personajes-de-mandaloriano_2560x1440_6874.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: start;
+	justify-content:right;
+	color: #000000;
+	/* opacity: .7; */
+	display: flex;
+	align-items: center;
+    justify-content: center;
+
+	width: 100%;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+	
+}
+.titulos{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	background-color: rgb(0, 0, 0, 0);
+}
+.reseñas:hover{
+	transform: translateY(5px);
+	border: 1px solid #fff;
+	border-radius: 8px;
+}
+
+.redes a img:hover{
+	max-width: 3.5rem; 
+}
+
+/*-------------------------------------PERSONAJES---------------------------------------*/
+
+.personajes-st{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 20px; 
+}
+.personajes-ar{
+    height: 100%;
+    min-height: 480px;
+    width: 40%;
+    min-width: 480px;
+    box-sizing: border-box;
+}
+.personajes-ct{
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.personajes-ar a div{
+	overflow: hidden;
+}
+.personajes-ct img{
+	transition: transform 0.3s ease-in-out;
+}
+.personajes-ar:hover{
+	outline: 2px solid #fff;
+	box-shadow: 0px 5px 18px 0px #666666;
+	cursor: pointer;
+}
+.personajes-ar:hover .personajes-ct>div>img{
+	transform: scale(1.1);
+}
+.personajes-ct h4{
+	width: 100%;
+	text-align: center;
+	padding : 15px 0px 15px 0px; 
+	font-size: 1.4rem;
+}
+.personajes-ct p{
+	padding: 0px 20px 0px 20px;
+	font-size: 1.2rem;
+}
+
+/*----------FORMULARIO-------------------------------------------*/
+
+.formulario{
+	display: inline-block;
+	width: 480px;
+	height: 100%;
+	margin: 0px;
+	position: relative;
+}
+.input {
+	background-color: black;
+    width: 100%;
+    border-radius: 4px;
+}
+.input label {
+    color: #999;
+    padding: 1.3rem 30px 1rem 30px;
+    top: 10px;
+    left: 0;
+    pointer-events: none;
+}
+input,
+textarea {
+    padding: 15px;
+    width: 480px;
+    font-size: 1rem;
+    background-color: #2d2d2d;
+    color: white;
+    border-radius: 4px;
+}
+textarea {
+    min-height: 15em;
+	width: 480px; 
+	height: 242px;
+}
+.submit-btn {
+    padding: 7px 35px;
+    border-radius: 60px;
+    display: inline-block;
+    background-color: #000000;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.submit-btn:hover {
+    transform: translateY(2px);
+}
+
+/*-----------------------------------GENERAL------------------*/
+.temporadas{
+	background: rgba(0, 0, 0, 0.2);
+}
+.principal div img{
+	width: 80%;
+}
+.principal div h2{
+	margin-left: 2%;
+	color: #000000;
+}
+.secundario{
+	margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.secundario .inicio{
+	display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    width: 100%;
+}
+.secundario div{
+	width: 100%;
+    padding: 0% 3% 3%;
+    text-align: center;
+}
+.secundario div a img{
+	width: 100%;
+	border-radius: 10px;
+}
+.imgsInicio:hover{
+	transform: translateY(5px);
+	background-color: rgba(28, 28, 28, 0.512);
+	border-radius: 8px;
+}
+h4{
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+
+
+/*-------------------------------------FOOTER GENERAL---------------------------------------*/
+
+
+footer{
+	display:contents;
+	align-items: start;
+	justify-content:center;
+	height: 350px;
+	width: 100% ;
+}
+footer a img{
+	max-width: 2.5rem; 
+	width: 100%;
+	height: auto;
+	margin: 20%;
+}
+footer .redes {
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	height: 80px;
+}
+.copyright-ct{
+	display:flex; 
+	align-items: center; 
+	justify-content: center; 
+	height: 5rem;
+}
+.copyright-ct img{
+	border-radius: 40px; 
+	width: 30px; 
+	height: 30px; 
+	max-width: 30px;
+}
+@media (max-width: 768px) {
+    .form {
+        min-width: 100%;
+    }
+	.principal {
+		width: 100%;
+		height: 400px;
+		background-image: url(../images/HOME-MANDALORIAN2.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		display: flex;
+		align-items: start;
+		justify-content: right;
+		color: #000000;
+	}
+	.secundario .inicio {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.galeria-ct {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	input, textarea {
+		padding: 10px;
+		width: 440px;
+	}
+	.input {
+		width: 440px;
+	}
+	.Contacto {
+		height: auto;
+		background-image: url();
+		background-color: rgba(0, 0, 0, 0.2);
+	}
+}
+@media (max-width: 480px) {
+    
+	.galeria-ct {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	input, textarea {
+		padding: 10px;
+		width: 400px;
+	}
+	.input {
+		width: 400px;
+	}
+}
