@@ -363,6 +363,28 @@ footer .redes {
 		background-image: url();
 		background-color: rgba(0, 0, 0, 0.2);
 	}
+	nav ul {
+		display: none;
+	}
+	nav.responsive{
+		width: 100%;
+	}
+	nav.responsive ul {
+		display: block;
+	}
+	nav.responsive ul li {
+		display: block;
+		text-align: center;
+		padding: 0.5rem;
+	}
+	nav.responsive ul li a {
+		padding-right: 0;
+	}
+	.icon {
+		display: block;
+		padding-right: 0.6rem;
+		margin: auto 0;
+	}
 }
 @media (max-width: 480px) {
     
