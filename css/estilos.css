@@ -32,13 +32,22 @@ h1{
 	display: flex;
 	align-items: center;
 }
+
 header nav ul li:hover{
 	/* transform: translateY(2px); */
 	background-color: rgba(255, 139, 50, 0);
 	border-radius: 20px;
 }
-nav ul{
-	margin-top: 0%;
+nav{
+	display: flex;
+	align-items: center;
+	width: 70%;
+	overflow: hidden;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }
 nav ul li{
 	display: inline-block;
@@ -78,11 +87,6 @@ nav li:hover > ul{
 nav li ul li {
 	position: relative;
 }
-/* nav li ul li ul {
-	left: 50px;
-	top: 38px;
-} */
-
 .icon { display: none; }
 .icono-principal:hover{
 	transform: translateY(3px);
@@ -363,14 +367,26 @@ footer .redes {
 		background-image: url();
 		background-color: rgba(0, 0, 0, 0.2);
 	}
+	nav.responsive {
+        width: 100%;
+    }
+	nav.responsive ul > li {
+		float:none;
+	}
 	nav ul {
 		display: none;
 	}
 	nav.responsive{
 		width: 100%;
 	}
+	nav li > ul{
+		display: block;
+		position: relative;
+		background-color: #000000;
+	}
 	nav.responsive ul {
 		display: block;
+        width: 100%;
 	}
 	nav.responsive ul li {
 		display: block;
@@ -387,7 +403,15 @@ footer .redes {
 	}
 }
 @media (max-width: 480px) {
-    
+    header{
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		background-color: #000;
+		position: sticky;
+		top: 0;
+		z-index: 1;
+	}
 	.galeria-ct {
 		grid-template-columns: repeat(1, 1fr);
 	}
