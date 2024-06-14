@@ -376,6 +376,10 @@ footer .redes {
 	nav ul {
 		display: none;
 	}
+	nav ul li a:hover{
+		transform: translateY(0px);
+		background-color: rgba(255, 139, 50, 0.25);
+	}
 	nav.responsive{
 		width: 100%;
 	}
