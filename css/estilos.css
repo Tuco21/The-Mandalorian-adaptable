@@ -295,6 +295,7 @@ textarea {
 .secundario div a img{
 	width: 100%;
 	border-radius: 10px;
+	height: 220px;
 }
 .imgsInicio:hover{
 	transform: translateY(5px);
