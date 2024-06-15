@@ -191,6 +191,12 @@ section{
     flex-wrap: wrap;
     padding: 20px;
 }
+.historia-ct{
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
 .personajes-ar a div{
 	overflow: hidden;
 }
