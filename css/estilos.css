@@ -280,11 +280,20 @@ textarea {
     display: flex;
     flex-wrap: wrap;
 }
-.secundario .inicio{
-	display: grid;
+.secundario .inicio {
+    display: grid;
     justify-items: center;
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
+    gap: 10px;
+    width: 100%;
+}
+.secundario .personajes {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 10px;
     width: 100%;
 }
 .secundario div{
@@ -299,8 +308,10 @@ textarea {
 }
 .imgsInicio:hover{
 	transform: translateY(5px);
-	background-color: rgba(28, 28, 28, 0.512);
+	background-color: rgba(28, 28, 28, 0.2);
 	border-radius: 8px;
+	border: 1px solid #fff;
+	
 }
 h4{
 	font-size: 1.5rem;
@@ -346,7 +357,7 @@ footer .redes {
 	header {
         flex-wrap: wrap;
     }
-	
+
 	.principal{
 		height: 281px;
 		background-image: url(../images/HOME-MANDALORIAN2-mini.webp);	
@@ -356,6 +367,9 @@ footer .redes {
 	}
 	.galeria-ct {
 		grid-template-columns: repeat(2, 1fr);
+	}
+	.secundario .personajes {
+		grid-template-columns: repeat(2, 1fr);	
 	}
 	input, textarea {
 		padding: 10px;
@@ -420,6 +434,9 @@ footer .redes {
 	}
 	.galeria-ct {
 		grid-template-columns: repeat(1, 1fr);
+	}
+	.secundario .personajes {
+		grid-template-columns: repeat(1, 1fr);	
 	}
 	input, textarea {
 		width: 400px;
