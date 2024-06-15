@@ -94,8 +94,8 @@ header div a img {
   width: 480px;
   height: 360px;
   margin: 0 auto; 
-  background: url(../images/iconos/loading.gif) no-repeat; 
-} 
+  background: url(../images/gif/loading.gif) no-repeat; 
+}
 
 .lb-nav {
   position: absolute;
@@ -226,9 +226,9 @@ header div a img {
 
 @media(max-width: 768px){
   .lb-cancel {
-    width: 250px;
-    height: 250px;
-    background: url(../images/gif/loading3.gif) no-repeat; 
+    width: 32px;
+    height: 32px;
+    background: url(../images/gif/loading1.gif) no-repeat; 
   } 
   header div a img {
     width: 100%;
