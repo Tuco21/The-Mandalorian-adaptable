@@ -316,12 +316,12 @@ textarea {
     border-radius: 10px;
     height: 220px;
 }
-.secundario .galeria-ct a img {
+.secundario .galeria-ct a img { 
     width: 100%;
     border-radius: 10px;
     height: 220px;
     border: 5px solid #0000008a;
-}
+} 
 /* ------------------------------------------------------------------------------------------------------- */
 .secundario .galeria-ct a img:hover { 
     border-radius: 10px;
