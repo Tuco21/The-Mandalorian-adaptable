@@ -452,6 +452,9 @@ footer .redes {
 		padding-right: 0.6rem;
 		margin: auto 0;
 	}
+	#histroia-li {
+		width: 100%; 
+	}
 }
 @media (max-width: 480px) {
     header{
