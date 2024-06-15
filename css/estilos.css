@@ -138,14 +138,7 @@ section{
 	background-image: url(../images/personajes-de-mandaloriano_2560x1440_6874.webp);
 	background-size: cover;
 	background-repeat: no-repeat;
-	display: flex;
-	align-items: start;
-	justify-content:right;
 	color: #000000;
-	/* opacity: .7; */
-	display: flex;
-	align-items: center;
-    justify-content: center;
 
 	width: 100%;
     padding: 5%;
@@ -234,9 +227,9 @@ section{
 	position: relative;
 }
 .input {
-	background-color: black;
-    width: 100%;
-    border-radius: 4px;
+	background-color: rgba(0, 0, 0, 0.7);
+    width: 100%; 
+	border-radius: 10px;
 }
 .input label {
     color: #999;
