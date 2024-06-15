@@ -228,7 +228,7 @@ header div a img {
   .lb-cancel {
     width: 250px;
     height: 250px;
-    background: url(../images/gif/loading3.gif) no-repeat;
+    background: url(../images/gif/loading3.gif) no-repeat; 
   } 
   header div a img {
     width: 100%;
