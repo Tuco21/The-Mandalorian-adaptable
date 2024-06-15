@@ -477,9 +477,9 @@ footer .redes {
 		grid-template-columns: repeat(1, 1fr);	
 	}
 	input, textarea {
-		width: 400px;
+		width: 300px;
 	}
 	.input {
-		width: 400px;
+		width: 300px;
 	}
 }
