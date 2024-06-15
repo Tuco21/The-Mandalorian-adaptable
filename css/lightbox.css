@@ -230,4 +230,8 @@ header div a img {
     height: 250px;
     background: url(../images/gif/loading3.gif) no-repeat;
   } 
+  header div a img {
+    width: 100%;
+    height: 80px;
+  }
 }
