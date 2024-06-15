@@ -111,7 +111,7 @@ section{
     gap: 10px;
     grid-template-columns: repeat(3, 1fr);
 	background-image: url(../images/vertical_dark_Batman_Yoda_Mandalorian.jpg!d);
-	background-size: contain;
+	background-size: contain; 
 }
 .galeria-ct a img:hover {
     overflow: hidden;
