@@ -307,11 +307,10 @@ textarea {
 	height: 220px;
 }
 .imgsInicio:hover{
-	transform: translateY(5px);
+	transform: translateY(3px);
 	background-color: rgba(28, 28, 28, 0.2);
 	border-radius: 8px;
 	border: 1px solid #fff;
-	
 }
 h4{
 	font-size: 1.5rem;
