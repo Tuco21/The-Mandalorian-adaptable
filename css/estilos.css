@@ -24,12 +24,12 @@ header{
 	top: 0;
 	z-index: 100;
 
-}
+} 
 h1{
 	/* font-size: 1.5rem; */
 	font-size: 3rem;
     color: #f69a00;
-}
+} 
 #menu_bar{
 	display: flex;
 	align-items: center;
