@@ -56,7 +56,6 @@ nav ul li a{
 	font-size: 1.2rem;
 	padding-right: 2rem;
 	text-transform: uppercase;
-	width: 140px;
 	background-color: #000000;
 	padding: 8px;
 	display: block
@@ -66,6 +65,10 @@ nav ul li a:hover{
 	/* font-weight: 850; */
 	background-color: rgba(255, 139, 50, 0.25);
 	/* border-radius: 20px; */
+}
+#histroia-li {
+	width: 140px;
+	background-color: #000000;
 }
 a{
 	text-decoration: none;
