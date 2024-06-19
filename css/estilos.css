@@ -460,8 +460,11 @@ footer .redes {
 		z-index: 1;
 	}
 	.principal{
+		height: 281px;
+		background-image: url(../images/the\ mandalorian\ adaptable.jpg);	
+	} 
+	.principal{
 		height: 200px;
-		
 	}
 	.secundario div a img {
 		height: 150px;
