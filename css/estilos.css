@@ -380,7 +380,8 @@ footer .redes {
     }
 	.principal{
 		height: 281px;
-		background-image: url(../images/HOME-MANDALORIAN2-mini.webp);	
+		background-image: url(../images/HOME-MANDALORIAN2-mini.webp);
+		margin-bottom: 40px;	
 	} 
 	.secundario .inicio {
 		grid-template-columns: repeat(1, 1fr);
