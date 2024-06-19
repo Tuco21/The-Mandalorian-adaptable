@@ -459,9 +459,10 @@ footer .redes {
 		z-index: 1;
 	}
 	.principal{
-		height: 200px;
-		background-image: url(../images/the_mandalorian_adaptable_celu.jpg);	
-	} 
+		height: 400px;
+    	background-image: url(../images/the_mandalorian_adaptable_celu.jpg);
+    	border-radius: 20px;
+	}
 	.secundario div a img {
 		height: 150px;
 	}
@@ -476,5 +477,8 @@ footer .redes {
 	}
 	.input {
 		width: 300px;
+	}
+	video{
+		display: none;
 	}
 }
