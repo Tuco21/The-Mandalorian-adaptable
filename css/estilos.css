@@ -459,6 +459,9 @@ footer .redes {
 		top: 0;
 		z-index: 1;
 	}
+	body{
+		background-image: url(../images/the\ mandalorian\ adaptable.jpg);
+	}
 	.principal{
 		height: 200px;
 		
