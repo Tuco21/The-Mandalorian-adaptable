@@ -6,6 +6,7 @@
 } 
  p::-webkit-scrollbar{
 	width: 0px;
+	height: 0px;
 }
 body{
 	font-family: 'Rubik', sans-serif;
@@ -149,7 +150,7 @@ section{
 	
 }
 .titulos{
-	width: 100%;
+	/* width: 100%; */
 	height: 50px;
 	display: flex;
 	margin: 20px; 
@@ -378,10 +379,10 @@ footer .redes {
 	header {
         flex-wrap: wrap;
     }
-
 	.principal{
 		height: 281px;
-		background-image: url(../images/HOME-MANDALORIAN2-mini.webp);	
+		background-image: url(../images/HOME-MANDALORIAN2-mini.webp);
+		margin-bottom: 40px;	
 	} 
 	.secundario .inicio {
 		grid-template-columns: repeat(1, 1fr);
@@ -460,8 +461,9 @@ footer .redes {
 		z-index: 1;
 	}
 	.principal{
-		height: 200px;
-		
+		height: 480px;
+    	background-image: url(../images/the_mandalorian_adaptable_celu.jpg);
+    	border-radius: 20px;
 	}
 	.secundario div a img {
 		height: 150px;
@@ -478,4 +480,7 @@ footer .redes {
 	.input {
 		width: 300px;
 	}
+	/* video{
+		display: none;
+	}  */
 }
