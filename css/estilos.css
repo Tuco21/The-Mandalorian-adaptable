@@ -93,9 +93,9 @@ nav li ul li {
 	position: relative;
 }
 .icon { display: none; }
-.icono-principal:hover{
+/* .icono-principal:hover{
 	transform: translateY(3px);
-}
+} */
 section{
 	max-width: 1300px;
     width: 90%;
@@ -329,7 +329,7 @@ textarea {
     border: 1px solid rgb(152, 81, 30);
 }
 .imgsInicio:hover{
-	transform: translateY(3px);
+	/* transform: translateY(3px); */
 	background-color: rgba(28, 28, 28, 0.5);
 	border-radius: 8px;
 	border: 1px solid #fff;
