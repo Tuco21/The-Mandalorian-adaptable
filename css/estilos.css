@@ -159,7 +159,7 @@ section{
 	background-color: rgb(0, 0, 0, 0);
 }
 .redes a img:hover{
-	transform: translatey(6px);
+	transform: translatey(6px); 
 }
 
 /*-------------------------------------PERSONAJES---------------------------------------*/
