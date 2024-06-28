@@ -313,6 +313,11 @@ textarea {
     padding: 0% 3% 3%;
     text-align: justify;
 }
+.reseñasimg{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 .secundario div a img {
     width: 100%;
     border-radius: 10px;
@@ -338,6 +343,7 @@ textarea {
 h4{
 	font-size: 1.5rem;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 
