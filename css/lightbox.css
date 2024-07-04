@@ -125,7 +125,7 @@ header div a img {
   width: 34%;
   left: 0;
   float: left;
-  background: url(../images/iconos/prev3-removebg-preview\ \(1\)\ \(1\).png) left 48% no-repeat;
+  background: url(../images/iconos/prev.png) left 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -143,7 +143,7 @@ header div a img {
   width: 30%;
   right: 0;
   float: right;
-  background: url(../images/iconos/next3-removebg-preview\ \(1\)\ \(1\).png) right 48% no-repeat;
+  background: url(../images/iconos/next.png) right 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
