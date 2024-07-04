@@ -50,6 +50,9 @@ nav{
 	width: 70%;
 	overflow: hidden;
 }
+strong{
+	color: #f69c00cf;
+}
 nav ul {
     display: flex;
     justify-content: space-evenly;
